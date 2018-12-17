@@ -1,0 +1,84 @@
+body{
+    overflow-x: hidden;
+}
+
+/* Header CSS */
+.find-a-coach-header{
+    min-height: 600px;
+    background: url('../imgs/find_a_coach_header.jpg');
+    background-position: top;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.find-a-coach-body{
+    margin-top: -220px;
+    min-height: 300px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.find-a-coach-content{
+    background: #2d3036;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    letter-spacing: 0.5px;
+    font-family: Lucida Console, Courier, monospace;
+    font-size: 20px;
+}
+
+.img1{
+    position: absolute;
+    max-height: 200px;
+    margin-top: -180px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.addon {
+    position: relative;
+    margin-top: 50px;
+}
+.addon input {
+    padding-right: 50px;
+    height: 50px;   
+    padding-left: 20px; 
+    letter-spacing: 1px;
+}
+.form{
+    width: 100%;
+    border: none;
+}
+.fa {
+    position: absolute;
+    right: 0px;
+    padding: 15px 35px;
+    pointer-events: none;
+    font-size:20px;
+    color: #C8C8C8;
+} 
+@media screen and ( max-width: 768px){
+    .img1{
+        margin: -25px 0 0px 0%;
+    }
+
+    .find-a-coach-body{
+        min-height: 500px;
+    }
+
+    .find-a-coach-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .find-a-coach-img-parent{
+        margin: 0 auto;
+        padding-bottom: 200px;
+        padding-left: 90px;
+    }
+    h4{
+        font-size: 40px;
+    }
+}
+

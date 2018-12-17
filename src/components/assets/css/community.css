@@ -1,0 +1,90 @@
+.community-main-body{
+    background: #fff;
+}
+
+/* Header CSS */
+.community-header{
+    min-height: 525px;
+    background: url('../imgs/dark-brush-with-texture.jpg');
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.community-heading{
+    margin-left: 13px;
+    font-family: refrigerator-deluxe, sans-serif;
+}
+/* community body */
+.community-body{
+    font: 'Roboto', 'sens-serif'
+}
+.upcoming-events{
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+.event-name{
+    margin-top: -20px;
+    background-color: white;
+    min-height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 2px red solid;
+}
+.event-title{
+    margin-top: 10px;
+}
+.card-1{
+    background-color: rgb(110, 128, 145);
+    height: 158.72px;
+}
+.card-2{
+    background-color: #DCDCDC;
+    height: 158.72px;
+}
+.card-3{
+    background-color: #f7ddbb;
+    height: 158.72px;
+}
+.card-img-1{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-img-2{
+    width: 100%;
+    margin-top: 20px;
+}
+.card-img-3{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.texture{
+    background-image: url("../imgs/texture-swipe-1.jpg");
+    background-repeat: no-repeat;
+}
+.texture1{
+    background-image: url("../imgs/small-texture-swipe-1.jpg");
+    background-repeat: no-repeat;
+}
+.club{
+    padding-top: 10px;
+}
+ @media screen and ( max-width: 414px){ 
+     .card-img-1, .card-img-2{
+        width: 40%;
+        margin-left: 80px;
+}
+    .card-img-3{
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+} 
+@media screen and ( max-width: 411px){
+    .card-img-1, .card-img-2{
+        margin-left: 90px;
+    }
+}
+
+

@@ -1,0 +1,56 @@
+/* body{
+    background: url('../imgs/dark-brush-bg.jpg');
+    background-position: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.smart-match-body{
+    min-height: 700px;
+}
+.row.body-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-left-color: red;
+    border-left-style: solid;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.body-content-card-summary{
+    margin: 0;
+    color: black;
+}
+.body-content-card-summary.d-none.d-sm-block{
+    padding-top: 10px;
+    font-size: 10px;
+    line-height: 25px;
+}
+.body-content-card-title{
+    color: black;
+}
+.row.body-content-row1{
+    text-align: center;
+}
+
+.content-row3-link{
+    color: white;
+    text-decoration: none;
+}
+.view-more-coaches{
+    background-color: red;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    float: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.content-row3-link{
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}

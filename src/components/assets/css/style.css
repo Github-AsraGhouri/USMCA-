@@ -1,0 +1,327 @@
+/* home-header CSS */
+.home-header{
+    min-height: 600px;
+    background: url('../imgs/home-header-bg.jpg');
+    background-position: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-nav{
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.logo{
+    max-width: 220px;
+}
+.navbar-nav, .nav-item{
+    float: right;
+}
+.top-navbars .navbar-nav.top-navbar-upper-items,
+.top-navbars .navbar-nav.top-navbar-below-items{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-navbar-upper-items .nav-link.nav-upper-item{
+    font-size: 12px;
+    padding: 5px 5px 20px 5px;
+    height: 17px;
+    margin: 0 10px;
+}
+
+.top-nav .navbar-nav .nav-link,
+.top-nav .navbar-nav .nav-link.active,
+.top-nav .navbar-nav .nav-link:hover { color: #FFF; }
+.top-nav .navbar-nav .nav-link.right-nav-item{
+    margin-right: 25px;
+    font-size: 16px;
+}
+
+.nav-item.active{
+    border-bottom: 2px solid#F12121;
+    padding-bottom: 0;
+}
+.top-nav .navbar-nav .nav-link.active{
+     margin-left: 10px;
+}
+header h1{
+    font-family: inherit;
+    font-size: 75px;
+    margin: -15px 0 0 0;
+}
+
+.texture-img{
+    margin-top: -80px;
+    margin-bottom: -80px;
+}
+
+header .search-field-wrapper{
+    padding: 0;
+    margin-top: 15px;
+}
+
+.search-field-wrapper .search-field{
+    border-radius: 0;
+    border: none;
+}
+
+.search-field-wrapper .search-field-addon{
+    border-radius: 0;
+    background: #F12121;
+    border: none;
+    color: #fff;
+}
+
+/* home sections css */
+.mbr-text{
+    margin-left: 20px;
+    font-style: normal;
+    line-height: 1.9;
+    text-align:  left;
+    color: #666;
+}
+
+.mbr-title{
+    padding-left: 10px;
+    padding-top: 20px;
+    border-left: 2px solid #F12121;
+    margin: 15px 0px 0px 0px;
+    font-size: 3.0rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.section-2-img{
+    width: 95%;
+    max-height: 420px;
+    float: right;
+    
+}
+.motor-cycle-coaches{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.section-3-img{
+    width: 80%;
+    max-height: 420px;
+}
+.path-to-ride.section-fourth{
+    margin-left: -100px;
+}
+
+/* pagination css */
+.pagination-item{
+    border: none;   
+    color: #000;
+    font-size: 18px;
+}
+
+.pagination-item:hover,
+.pagination-item.active{
+    transition: 0.5s;
+    background: none;
+    border: none;   
+    border-bottom: 2px solid red;
+    color: red;
+}
+.pagination-item.active{
+    font-size: 22px;
+    margin-top: -6px;
+}
+
+.pagination-first-item,
+.pagination-first-item:hover,
+.pagination-last-item,
+.pagination-last-item:hover{
+    background: none;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 0;
+    width: 50px;
+    text-align: center;
+    border-radius: 0 !important;
+}
+
+
+/* FOOTER CSS */
+footer{
+    background: #363940;
+    color: #777;
+}
+
+.bottom-logo{
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+footer .bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    max-width: auto;
+}
+
+footer a{
+    color: #777;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+footer a:hover{
+    color: #777;
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.footer-bottom-section p{
+    font-size: 16px;
+}
+.footer-bottom-section a{
+    font-size: 14px;
+}
+.footer-bottom-section{
+    background: #2d3036;
+    min-height: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 30px;
+}
+footer{
+    font-size: 14px;
+}
+.path-to-ride{
+    background: url('../imgs/small-texture-swipe-1.jpg');
+    background-repeat: no-repeat;
+    
+}
+/* common css */
+.sm-m-auto{ margin: 0 0 0 20px; }
+.mt20{ margin-top: 20px; }
+.mt50{ margin-top: 50px; }
+.mt100{ margin-top: 100px; }
+.mt150{ margin-top: 150px; }
+.mt-30{ margin-top: -30px; }
+.mt-50{ margin-top: -50px; }
+.mt-150{ margin-top: -150px; }
+.mt-350{ margin-top: -350px; }
+.color-red{ color: #F12121 !important; }
+.text-center { text-align: center !important;}
+.text-decoration-none {text-decoration: none !important;}
+.a-default,.a-default:hover{color: initial; text-decoration: none;}
+p{ font-size: 12px; }
+
+/* these classes get from PSD guid */
+.page-title{
+    font-size: 130px;
+    font-family: Refrigerator Deluxe, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+
+}
+@media only screen and (min-width: 600px) {
+    /* .navbar-nav, .nav-item{
+        float: none;
+    } */
+}
+@media only screen and (min-width: 768px) {
+    /* .navbar-nav, .nav-item{
+        float: none;
+    } */
+}
+@media only screen and (max-width: 768px) {
+    .navbar-nav, .nav-item{
+        float: none;
+    }
+    .page-title{
+        font-size: 50px;
+    }
+    .path-to-ride.section-fourth{
+        margin-left: auto;
+    }
+    .top-nav{
+        margin-bottom: 30px;
+    }
+
+    header h1{
+        font-family: inherit;
+        font-size: 50px;
+        margin: -15px 0 0 0;
+    }
+
+    .home-header{
+        min-height: 600px;
+        background: url('../imgs/IMG_1157.jpeg');
+        background-position: center;
+        text-transform: uppercase;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    footer .bottom-nav{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        padding: 25px 0 0 0;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    .bottom-nav .navbar-nav a{
+        text-align: center;
+    }
+
+    .footer-bottom-section{
+        background: #2d3036;
+        min-height: 70px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .sm-m-auto{ margin: 0 auto; }
+  }
+
+.fade-in {
+	-webkit-animation: fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-8-22 14:46:35
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

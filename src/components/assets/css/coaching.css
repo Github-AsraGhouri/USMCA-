@@ -1,0 +1,168 @@
+.coaching-header{
+    min-height: 600px;
+    background: url('../imgs/coaching_header.jpg');
+    background-position: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ridding-header-title{
+    width: 75%;
+}
+.sec-2-div{
+    background-image: url("../imgs/Light-Brush-Background.jpg");
+    min-height: 530px;
+    padding-left: 180px;
+    padding-top: 50px;
+    line-height: 20px;
+    color: gray;
+}
+.usmca-certification{
+    background-image: url("../imgs/small-texture-swipe-1.jpg");
+}
+.ridding-section-1-img {
+    width: 100%;
+    max-height: 350px;
+    margin-top: 25px;
+}
+.sec-2-title{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    color: black;
+}
+h5, .sec-six-title{
+    color: black;
+}
+.coaching-sec-two{
+    background: url(../imgs/dark-brush-bg.jpg);
+    background-position: left;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 60% 100%;
+    padding: 20px
+}
+.coaching-section-2-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-left: -15%;
+    margin-top: 35%;
+}
+.section-two-summary{
+    border-left-style: solid;
+    border-left-color: red;
+    border-left-width: 2px;
+    padding-bottom: 30px;
+    letter-spacing: 0.30px;
+    font-weight: 15px;
+
+}
+.get-register-button{
+    background-color: red;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    float: center;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.certified-button{
+    background-color: red;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    float: center;
+    font-size: 12px;
+}
+.coaching-bottom-section{
+    width: 100%;
+    min-height: 330px;
+    background: url('./../imgs/riding-bottom-section-bg.jpg');
+    background-position: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -8px;
+}
+.title-summary{
+    padding-left: 10px;
+}
+.container1-width{
+    width: 70%;
+}
+.ridding-section-1-img{
+    min-height: 400px;
+}
+.section-fourth{
+    margin-top: 100px;
+}
+.check{
+    width: 20%;
+}
+.coaching-row-2{
+    margin-left: 150px;
+    margin-top: -370px;
+}
+.row-section-two, .how-it-work {
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.row-section-two span{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.container-footer-section{
+    padding-top: 50px;
+    text-align: center;
+}
+.sec-six-title{
+    font-size: 50px;
+    font-weight: 400;
+    
+}
+@media only screen and (max-width: 768px) {
+    .coaching-sec-two{
+        background: url('../imgs/dark-brush-bg.jpg');
+        background-position: left;
+        text-transform: uppercase;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .coaching-section-2-img{
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .sec-2-div{
+      padding-left: 15px;
+    }
+    .container1-width{
+        width: 100%;
+    }
+    .ridding-section-1-img{
+        min-height: auto;
+    }
+    .container2-width{
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .section-fourth{
+        margin-top: 50px;
+    }
+    .coaching-row-2{
+        margin-left: auto;
+        margin-top: auto;
+    }
+}

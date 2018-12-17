@@ -1,0 +1,239 @@
+.riding-header{
+    min-height: 600px;
+    background: url('../imgs/riding_header.jpg');
+    background-position: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ridding-header-title{
+    width: 75%;
+}
+
+.ridding-section-1-img{
+    width: 100%;
+    max-height: 350px;
+    margin-top: 25px;
+}
+.mbr-text.section-details{
+    margin-top: 25px;
+}
+.mbr-title.section-details{
+    padding-top: 40px;
+}
+.mbr-text.section-details{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.mbr-title.section-details{
+    color: black;
+    font-weight: 400;
+}
+.fourth-title{
+    text-align: center;
+}
+.sec-six-title{
+    text-align: center;
+}
+.view{
+    color: red;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.riding-sec-two{
+    background: url(../imgs/dark-brush-bg.jpg);
+    background-position: left;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 55% 100%;
+    padding: 50px
+}
+
+.riding-section-2-img{
+    position: absolute;
+    width: 95%;
+    height: auto;
+    margin-left: -20%;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.many-ride-path{
+    background: url('../imgs/small-texture-swipe-1.jpg');
+    background-repeat: no-repeat;
+}
+.input-group-text, .summary{
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.input-group-text{
+   margin-left: -15px;
+}
+
+.riding-bottom-section{
+    width: 100%;
+    min-height: 330px;
+    background: url('./../imgs/riding-bottom-section-bg.jpg');
+    background-position: center;
+    text-transform: uppercase;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -8px;
+}
+.section-3-img{
+    width: 100%;
+    max-height: 350px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fourth-section-row{
+    margin-bottom: 50px;
+   
+}
+.card-text{
+    font-weight: 600;
+    /* letter-spacing: px; */
+    line-height: 25px;
+}
+.card-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.border{
+    background-color: red;
+}
+.fourth-section{
+    margin-top: 100px;
+} 
+
+.sec5-title{
+    padding-left: 18px;
+    font-size: 38px;
+  }
+.sec5-text{
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.fifth-section{
+    padding: 90px;
+    background: url('./../imgs/small-texture-swipe-1.jpg');
+    background-repeat: no-repeat;
+}
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-left-style: solid;
+    border-left-color: red;
+    border-left-width: 3px;
+    margin-top: 50px;
+}
+.list{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.list li {
+    padding-top: 20px;
+    list-style-type: none;
+    margin-left:-40px;
+}
+.list li:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background-image: url("../imgs/Tire.svg");
+    background-repeat: no-repeat;
+    margin-right: 8px;
+  
+  }
+.sec-six-para{
+    text-align: center;
+    color: rgb(128,128,128);
+    margin-top: 10px;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.get-certified-button{
+    background-color: red;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    float: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.fifth-container{
+    width: 80%;
+}
+.container-width{
+    width: 70%;
+    margin-top: 30px;
+}
+.container3-width{
+    width: 80%;
+    margin-top: 150px;
+}
+.topnav span.active {
+    border-bottom: 3px solid red;
+}
+.topnav span{
+    padding: 14px 7px;
+}
+.topnav p{
+      padding-left: -50px;
+}
+.topnav{
+    padding-bottom: 10px;
+}
+.container-footer-section{
+    padding-top: 50px;
+    text-align: center;
+}
+.sec-six-title{
+    font-size: 50px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+    .riding-sec-two{
+        background: url(../imgs/dark-brush-bg.jpg);
+        background-position: left;
+        text-transform: uppercase;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .riding-section-2-img{
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .card-1{
+        margin-top: 50px;
+       text-align: center;
+    }
+    .fifth-container{
+        width: 100%;
+        text-align: center;
+    }
+    .container-width{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .container3-width{
+        width: 100%;
+        margin-top: 0px;
+    }
+}

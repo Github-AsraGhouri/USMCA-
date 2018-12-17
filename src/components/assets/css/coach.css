@@ -1,0 +1,176 @@
+/* Header CSS */
+.coach-header{
+    min-height: 525px;
+    background: url('../imgs/dark-brush-with-texture.jpg');
+    background-position: top;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-nav{
+    margin-bottom: 40px;
+}
+.coach-body{
+    text-transform: uppercase;
+    color: #777;
+}
+
+.header-content-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.row-coach-body{
+    margin-top: 50px;
+}
+.save-a-coach-div{
+    padding-top: 12px;
+    text-align: right;
+    letter-spacing: 3px;
+}
+.save-a-coach-button{
+    background-color: red;
+    border: none;
+    padding: 5px 35px;
+    color: white;
+}
+.backto-coaches-link{
+    color: white;
+    text-decoration: none;
+}
+.coach_result_link{
+   color: white;
+}
+.coach_result_p{
+   letter-spacing: 2px;
+}
+.row-description span{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+row.row-description{
+    line-height: 5px;
+    letter-spacing: 5px;
+}
+.save-a-coach-button2{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    letter-spacing: 5px;
+}
+.coach-mobile-para{
+    margin-left:10px;
+    padding-top: 30px;
+    text-align: right;
+    letter-spacing: 5px;
+}
+.coach-body-details{
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.row.coach-body-courses{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-left-color: red;
+    border-left-style: solid;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+.coach-body-card-head1{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color:black;
+}
+.body-content-card-title{
+    color: black;
+}
+.body-content-card-summary{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.col-sm-8.coach-card-section-left{
+    border-right-color: #D8D8D8;
+    border-right-width : 1px;
+    border-right-style: solid;
+}
+.col-sm-4.coach-card-section-right{
+    text-align: center;
+}
+.signUp-button{
+    background-color: red;
+    border: none;
+    padding: 5px 35px;
+    color: white;
+}
+.star{
+    font-size: 20px;
+}
+.coach-side-list{
+    margin-top: 10px;
+
+}
+.coach-side-list p{
+    font-size: 11px;
+    color: grey;
+    padding-top: 5px;
+}
+.coach-side-list span{
+   font-weight: 600;
+   color: black;
+}
+.coach-side-list ol li{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+.coach-reviews span, h2{
+    color: black;
+    font-weight: 500;
+    
+}
+.view-more{
+    color: red;
+}
+.sidebar-reviews{
+    font-weight: 500;
+    font-size: 14px;
+}
+@media screen and ( max-width: 768px){
+    .coach-header{
+        padding-bottom: 340px;
+    }
+    .col-5.row-description-col2{
+    margin-left: auto;
+    }
+    .card-section-price{
+        float : left;
+    }
+    .card-section-signup{
+        float: right;
+
+    }
+    .col-sm-8.coach-card-section-left{
+        border-bottom-color: #D8D8D8;
+        border-bottom-width : 1px;
+        border-bottom-style: solid;
+        padding-bottom: 10px;
+    }
+    .coach-card-section-right{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    .signUp-button{
+        padding: 12px 35px;
+    }
+    .coach-sidebar-map{
+        margin-top: 30px;
+    }
+}

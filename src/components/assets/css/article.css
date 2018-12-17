@@ -1,0 +1,67 @@
+/* Header CSS */
+.article-header{
+    min-height: 525px;
+    background: url('../imgs/dark-brush-with-texture.jpg');
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-body{
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    color: rgb(128,128,128)
+}
+.article-image{
+    width: 90%;
+}
+.card{
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 5px 19px 0 rgba(0, 0, 0, 0.10);
+    border: none;
+}
+.fifth-container{
+    width: 70%;
+}
+.container-2{
+    width: 100%;
+    padding-left: 60px;
+}
+.article-body-para1{
+    font-size: 14px;
+}
+h4, h2, h1{
+    color: black;
+}
+h1{
+    text-align: center;
+}
+.texture{
+    background-image: url("../imgs/texture-swipe-1.jpg");
+}
+.topnav span.active {
+    border-bottom: 3px solid red;
+  }
+  .topnav span{
+    padding: 14px 7px;
+  }
+  .topnav p{
+      padding-left: -50px;
+  }
+  .topnav{
+    padding-bottom: 10px;
+  }
+@media only screen and (max-width: 768px){
+    .fifth-container{
+        width: 100%;
+        text-align: center;
+    }
+    .article-image{
+        width: 100%;
+        margin-top: 150px;
+    }
+    .container-2{
+        width: 100%;
+        padding-left: 15px;
+    }
+}

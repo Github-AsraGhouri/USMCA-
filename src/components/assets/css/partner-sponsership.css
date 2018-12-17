@@ -1,0 +1,117 @@
+.sponsership-main-body{
+    background: #ffffff;
+}
+
+/* Header CSS */
+.sponsership-header{
+    min-height: 525px;
+    background: url('../imgs/dark-brush-with-texture.jpg');
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partner-body{
+    background: url('../imgs/texture-swipe-1.jpg')
+}
+.sponser-logo{
+    width: 90%;
+}
+.wells{
+    width: 60%;
+}
+.sponser-logo-3{
+    width: 70%;
+    margin-left: 20px;
+}
+.sponser-logo-4{
+    width: 65%;
+    margin-left: 50px;
+}
+.sponser-logo-5{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 50px;
+}
+.sponser-logo-6{
+    width: 100%;
+    margin-left: 50px;
+}
+.sponser-container-2, .sponser-container-3{
+    margin-top: 50px;
+    
+}
+.sponser-logo-7{
+    width:80%;
+    margin-left: -30px;
+}
+.sponser-logo-8, .sponser-logo-10{
+    width:80%;
+    margin-top: 40px;
+    margin-left: -70px;
+}
+.sponser-logo-9{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: -70px;
+}
+.mt100{
+    margin-left: 10px;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+@media only screen and (max-width: 768px) {
+    .mt100{
+        margin-left: 8px;
+        letter-spacing: 1px;
+    }
+    .sponser-logo{
+        width: 100%;
+    }
+    .wells{
+        width: 60%;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+    .sponser-logo-3{
+        width: 70%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .sponser-logo-4{
+        width: 65%;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .sponser-logo-5{
+        width: 100%;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+    .sponser-logo-6{
+        width: 80%;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+    .sponser-container-2, .sponser-container-3{
+        width: 80%;
+    }
+    .sponser-logo-7{
+        width:80%;
+        margin-left: auto;
+    }
+    .sponser-logo-8, .sponser-logo-10{
+        width:80%;
+        margin-top: 50px;
+       margin-left: auto;
+    }
+    .sponser-logo-9{
+        width: 80%;
+        margin-top: 50px;
+        margin-left: auto;
+    }
+    .sponser-container-3{
+        margin-left: 50px;
+    }
+}

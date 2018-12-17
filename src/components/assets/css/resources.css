@@ -1,0 +1,78 @@
+.resources-main-body{
+    background: #fff;
+}
+
+/* Header CSS */
+.resources-header{
+    min-height: 625px;
+    background: url('../imgs/resources_riders_header.jpg');
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* resources-body */
+.resources-body,.category-list{
+    font-size: 11px;
+    font-family: 'Roboto', 'sens-serif';
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.resourses-container-3{
+    background-image: url('../imgs/small-texture-swipe-1.jpg');
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+.category-list{
+    background-color: rgba(255,255,255, 0.1);
+    color: #505050;
+}
+.resourses-container-2{
+    background-image: url('../imgs/texture-swipe-1.jpg');
+    background-repeat: no-repeat;
+}
+.resourses-container-3{
+    background-image: url('../imgs/small-texture-swipe-1.jpg');
+    background-repeat: no-repeat;
+}
+.resources-body{
+    background-image: url('../imgs/small-texture-swipe-1.jpg');
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+ul li:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background-image: url("../imgs/Tire.svg");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+  
+  }
+/* bottom section */
+.about-bottom-section{
+    width: 100%;
+    min-height: 330px;
+    background: url('./../imgs/riding-bottom-section-bg.jpg');
+    background-position: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -8px;
+}
